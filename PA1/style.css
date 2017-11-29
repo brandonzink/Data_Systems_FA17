@@ -1,0 +1,124 @@
+@media only screen and (min-width: 480px) {
+	body { max-width: 640px; }
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fffff8;
+	font-family: "Archivo Narrow";
+	font-size: 11pt;
+	text-decoration: none;
+}
+
+/* include/nav.php */
+nav {
+	margin-top: 16px;
+	font-size: larger;
+}
+
+nav span {
+	margin-right: 24px;
+}
+
+/* index.php */
+#content {
+	clear: left;
+	margin-top: 16px;
+}
+
+#content-left {
+	float: left;
+	width: 31%;
+}
+
+#content-middle {
+	float: left;
+	width: 31%;
+	margin-left: 3.5%;
+}
+
+#content-right {
+	float: left;
+	width: 31%;
+	margin-left: 3.5%;
+}
+
+.itemSep {
+	border-top: solid thin #c0c0c0;
+}
+
+.feedIcon {
+	float: left;
+	margin-top: 4px;
+}
+
+.feedTitle {
+	float: left;
+	margin-top: 4px;
+	margin-left: 4px;
+	font-size: smaller;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.itemPubDate {
+	float: right;
+	margin-top: 4px;
+	margin-left: 8px;
+	font-size: smaller;
+	font-style: normal;
+	font-weight: normal;
+	color: #317023;
+}
+
+.itemTitle {
+	clear: left;
+	margin-top: 16px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.itemDesc {
+	clear: left;
+	margin-bottom: 16px;
+	font-family: "Times";
+	font-style: normal;
+	font-weight: normal;
+	text-align: justify;
+	text-indent: 24px;
+}
+
+.articleImage {
+	width: 200px; !important
+	height: 150px; !important
+}
+
+/* feeds.php */
+.feedsListIcon {
+	float: left;
+	margin-top: 12px;
+}
+
+.feedsListTitle {
+	float: left;
+	margin-top: 12px;
+	margin-left: 4px;
+	font-size: smaller;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.feedsListLink {
+	clear: left;
+	font-size: smaller;
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* help.php */
+.help {
+	margin-top: 12px;
+	font-size: smaller;
+	text-align: justify;
+}
